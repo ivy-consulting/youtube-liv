@@ -1,7 +1,6 @@
 import aiohttp
 import asyncio
 from googleapiclient.discovery import build
-from pydantic import BaseModel
 import time
 import io
 from fastapi.responses import StreamingResponse
